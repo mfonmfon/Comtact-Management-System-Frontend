@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.backgroundWrapper{
+    width: 100%;
+    height: 100vh;
+    /*background-position:center;*/
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.navBar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.navBar ul{
+    width: 80%;
+}
+.navBar ul li{
+    list-style: none;
+    display:inline-block;
+    width: 12%;
+
+}
+.navBar ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.logo{
+    width: 15%;
+}
+.signupButton{
+    width: 10%;
+    background-color: green;
+    border: none;
+    border-radius: 6px;
+    height: 37px;
+    color: white;
+}
+.loginButton{
+    width: 10%;
+    margin-right: 3%;
+    color: green;
+    border: 1px solid;
+    border-radius: 6px;
+    height: 37px;
+}
+
+.backgroundImage img{
+    position: absolute;
+    width: 500px;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+.backgroundContent {
+    margin-top: 9%;
+    margin-left: 40%;
+    width:65%;
+}
+.backgroundContent h2{
+    font-size: 50px;
+    line-height: 50px;
+    padding-bottom: 3%;
+}
+.backgroundContent p{
+    font-size: 15px;
+    padding-bottom: 1%;
+}
+.searchButton{
+    width: 38%;
+    height: 37px;
+}
+.searcher{
+    width: 10%;
+    background-color: green;
+    color: white;
+    height: 37px;
+    border: none;
+}
