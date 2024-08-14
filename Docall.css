@@ -86,3 +86,63 @@
     height: 37px;
     border: none;
 }
+
+/*content*/
+.content{
+    width: 10%;
+}
+/*this is the signUp page styles*/
+.split{
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    padding:20px;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+.content{
+    width: 100%;
+    padding-top: 8%;
+}
+.phoneScreen{
+    text-align: center;
+    padding-bottom: 16%;
+}
+.phoneScreen h2{
+    font-size: 26px;
+    font-family:sans-serif;
+}
+.phoneScreen p{
+    font-size: 16px;
+}
+.ourCoreValue{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:auto;
+    height: 20%;
+}
+.subCore{
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    border: 2px solid;
+    padding: 60px 70px;
+    margin-right:  19px;
+    border-radius: 13px;
+    background-color: green;
+    color: white;
+}
+.subCore h2{
+    text-align: center;
+    font-size: 23px;
+    padding-bottom:13%;
+    font-family: "Segoe UI Semibold", serif;
+}
+.subCore p{
+
+    text-align: center;
+    font-size: 12px;
+}
