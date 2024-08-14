@@ -148,14 +148,24 @@
     font-size: 12px;
 }
 .subCore .sub-btn{
-    border: 1px solid;
-    width: 9%;
-    background-color: white;
-    color: black;
+    border: 2px solid;
+    border-radius: 5px;
+    width: 45%;
+    height: 15%;
+    background-color: green;
+    color: white;
     transition: 2s;
 }
 .subCore .sub-btn:hover{
-    background-color: green;
-    color: white;
+    background-color: white;
+    color: green;
 }
-
+/*Features*/
+.features{
+    width: 70%;
+    /*display: flex;*/
+    align-items: center;
+    padding: 10%;
+    margin-right: 20px;
+    display: flex;
+   }
