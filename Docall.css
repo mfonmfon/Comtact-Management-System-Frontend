@@ -7,7 +7,6 @@
 .backgroundWrapper{
     width: 100%;
     height: 100vh;
-    /*background-position:center;*/
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -44,16 +43,17 @@
     border-radius: 6px;
     height: 37px;
     color: white;
+    text-decoration: none;
 }
 .loginButton{
     width: 10%;
     margin-right: 3%;
     color: green;
-    border: 1px solid;
+    border: 1px solid green;
     border-radius: 6px;
     height: 37px;
+    text-decoration: none;
 }
-
 .backgroundImage img{
     position: absolute;
     width: 500px;
@@ -91,16 +91,7 @@
 .content{
     width: 10%;
 }
-/*this is the signUp page styles*/
-.split{
-    width: 50%;
-    height: 100%;
-    overflow: hidden;
-    padding:20px;
-    position: absolute;
-    top: 0;
-    z-index: 1;
-}
+
 .content{
     width: 100%;
     padding-top: 8%;
@@ -142,7 +133,6 @@
     font-family: "Segoe UI Semibold", serif;
 }
 .subCore p{
-    /*width: 30px%;*/
     padding-bottom: 12%;
     text-align: center;
     font-size: 12px;
@@ -219,4 +209,60 @@
 }
 .innerContent p{
     font-size: 10px;
+}
+
+
+/*Login Page*/
+
+.split {
+    height: 100%;
+    width: 70%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+.left {
+    left: 0;
+    background-color: white;
+}
+.right {
+    right: 0;
+    background-color: green;
+}
+.centered {
+    position: absolute;
+    top: 42%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+}
+.centered h1{
+    font-family: Cambria, sans-serif;
+    padding-bottom: 20%;
+    font-size: 27px;
+}
+.centered p{
+    font-size: 13px;
+    padding-bottom: 5%;
+}
+.centered input{
+    width: 100%;
+    height: 35px;
+    border-radius: 9px;
+    padding-bottom: 4%;
+    color: gray;
+    pading-right:10px;
+    border: none;
+    background-color: #dad6d6;
+}
+.signInButton{
+    border: none;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 40px;
+    border-radius: 15px;
+
 }
