@@ -142,7 +142,20 @@
     font-family: "Segoe UI Semibold", serif;
 }
 .subCore p{
-
+    /*width: 30px%;*/
+    padding-bottom: 12%;
     text-align: center;
     font-size: 12px;
 }
+.subCore .sub-btn{
+    border: 1px solid;
+    width: 9%;
+    background-color: white;
+    color: black;
+    transition: 2s;
+}
+.subCore .sub-btn:hover{
+    background-color: green;
+    color: white;
+}
+
