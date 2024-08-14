@@ -162,10 +162,31 @@
 }
 /*Features*/
 .features{
-    width: 70%;
-    /*display: flex;*/
-    align-items: center;
-    padding: 10%;
-    margin-right: 20px;
+    width: 100%;
     display: flex;
-   }
+    position: absolute;
+    height: 670px;
+    margin-bottom: 10%;
+    margin-left: 9.5%;
+    align-items: center;
+}
+.featuresContent{
+    padding-bottom: 15%;
+}
+.featuresContent h3{
+    padding-bottom: 3%;
+    color: green;
+    font-size: 18px;
+}
+.featuresContent h1{
+
+    font-size: 45px;
+}
+.featuresContent p{
+    font-size: 13px;
+    padding-bottom: 7%;
+}
+.featuresPhoneImage img{
+    width: 670px;
+    margin-right: 12%;
+}
