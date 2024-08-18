@@ -7,33 +7,34 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>HiCaller</title>
     <link rel="stylesheet" href="Docall.css">
-    <script src="Docall.js"></script>
+    <script src="Docall.js" defer> </script>
 </head>
 <body>
 
 <div class="split">
     <div class="split left">
+
         <div class="accountType">
             <h1>HiCaller</h1>
             <h2>Sign up here on HiCaller</h2>
-            <label for="">First name<br>
-            </label><input type="text" name="firstName" id="" placeholder="Mfon">
+            <form autocomplete="on" id="form">
+            <label>First name<br>
+                <input id="firstName" type="text" name="firstName"  placeholder="Mfon"></label>
             <br>
             <br>
-            <label for="">Last name<br>
-            </label><input type="text" name="firstName" id="l" placeholder="Mfon">
+            <label>Last name<br>
+                <input id="lastName" type="text" name="firstName"  placeholder="Mfon"></label>
             <br>
             <br>
-            <label for="d">Phone number<br>
-            </label><input type="number" name="phoneNumber" id="d" placeholder="080">
+            <label>Phone number<br>
+           <input id="phoneNumber" type="number" name="phoneNumber"  placeholder="080"> </label>
             <br>
             <br>
-            <label for="e">Your email <br>
-            </label><input type="email" name="email" id="e" placeholder="email@gmail.com" style="padding-right: 10px">
-
+            <label>Your email <br>
+           <input id="email" type="email" name="email" placeholder="email@gmail.com" style="padding-right: 10px"> </label>
             <h4>Remember</h4>
-            <button class="accountSignupButton" onclick="window.location.href='successfullyLoggedIn.html'">Signup</button>
-
+            <button class="accountSignupButton" type="submit">Signup</button>
+            </form>
             </div>
         </div>
     </div>

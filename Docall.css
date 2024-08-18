@@ -294,16 +294,17 @@
     height: 35px;
     border-radius: 9px;
     padding-bottom: 4%;
-    color: gray;
+    color: #c2c2c2;
     pading-right:10px;
     border: none;
-    background-color: #dad6d6;
+    background-color: #f3efef;
     padding-top: 4%;
 }
 .accountType h4{
     color: #838080;
     padding-bottom: 15%;
 }
+
 .accountSignupButton{
     border: none;
     background-color: black;
@@ -317,3 +318,21 @@
     background-color: green;
     color: white;
 }
+.forms input{
+    height: 50px;
+    width: 120%;
+    font-size: 13px;
+    color: black;
+    margin: auto;
+}
+
+/*@media screen and (min-width: 20px) {*/
+/*   .backgroundWrapper{*/
+/*       width: 1000%;*/
+/*       display: block;*/
+/*   }*/
+/*    .navBar ul li {*/
+/*        display: inline-block;*/
+/*    }*/
+
+/*}*/
