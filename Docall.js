@@ -28,8 +28,8 @@
         })
 
         if (data.ok) {
-            console.log('successfully Sign up')
-            // window.location.href=''
+            alert("Signup Successfully")
+            window.location.href='"http://localhost:8070/user/sign-up"'
         }else{
            alert("Did not signup")
         }
